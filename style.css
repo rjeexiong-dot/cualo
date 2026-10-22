@@ -1,0 +1,63 @@
+.hero {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+              url("images/cualo1.jpg") center/cover no-repeat;
+}
+
+.section-title {
+  color: #0d6efd;
+  font-weight: 700;
+}
+.section-subtitle {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.hotel-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.hotel-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+.hotel-card .card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+.hotel-card .card-title {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.hotel-card .card-text {
+  font-size: 0.85rem;
+  color: #555;
+}
+.price {
+  color: #dc3545;
+  font-weight: 700;
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 1rem;
+}
+.star-text {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.review-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
